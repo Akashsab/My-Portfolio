@@ -5,6 +5,9 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+ body::-webkit-scrollbar{
+      display: none;
+    }
 
 .hero {
     background: linear-gradient(135deg, #ff7a18, #af002d);
